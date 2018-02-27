@@ -9,13 +9,13 @@ Here is the code for speech recognition using Sphinx and Google cloud Speech API
 - PyAdudio package
   - Install [PyAudio dependencies](https://people.csail.mit.edu/hubert/pyaudio/)
   - On Ubuntu, `sudo apt-get install portaudio19-dev`
-  - `$ pip install pyaudio`
+  - `pip install pyaudio`
 - Pocketsphinx package
-  - `sudo apt-get install swig libpulse-dev`
-  - `$ pip install pocketsphinx`  
-- Speech recognition, `$ pip install SpeechRecognition`
-- Install Google Speech API client, `$ pip install --upgrade google-cloud-speech`
-- Install Google Natural Language API client, `$ pip install --upgrade google-cloud-language`
+  - On Ubuntu, `sudo apt-get install swig libpulse-dev`
+  - `pip install pocketsphinx`  
+- Speech recognition, `pip install SpeechRecognition`
+- Install Google Speech API client, `pip install --upgrade google-cloud-speech`
+- Install Google Natural Language API client, `pip install --upgrade google-cloud-language`
 - [Authenticate Google Cloud ML API](https://cloud.google.com/natural-language/docs/quickstart-client-libraries#client-libraries-install-python)
 
 ## Usage
