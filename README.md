@@ -1,5 +1,7 @@
 # Speech Recognition and Sentiment Analysis Workshop
 
+Presented at Data Science Münster, February 27, 2018
+
 ## Overview
 Here is the code for speech recognition using Sphinx and Google cloud Speech API with input from micorphone. The text from speech recognition is then used as input to Google cloud Natural lagnguage API for sentiment analysis. We need a microphone to provide audio input to the program.
 
